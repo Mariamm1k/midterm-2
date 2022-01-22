@@ -1,10 +1,9 @@
 body{
-    background-color: thistle;
+    background-color: #F7F7F7;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: yellowgreen;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -30,7 +29,207 @@ a{
     padding-left: 30px;
 
 }
+.container{
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
 img{
     width: 100%;
+}
+.headertext{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    bottom:100px;
+    left: 180px;
+    display: block
+}
+
+.sectionfirst{
+    padding: 74px 260px 90px 180px;
+}
+.firsth2{
+    margin-bottom: 62px ;
+    font-size: 32px;
+}
+.firstparagraph{
+    font-size: 25px;
+    color: #434343;
+    line-height: 44px;
+    display: inline-block;
+}
+.articlediv{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 6px;
+    padding: 30px 170px 90px 90px;
+
+}
+.articleh2{
+    margin-bottom: 34px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+
+}
+.articleparagraph{
+    line-height: 33px;
+    display: inline-block;
+    font-size: 18px;
+}
+.div-steps{
+    width: 90%;
+    margin: 0 auto;
+}
+.sectionsecond{
+    padding: 45px 260px 90px 180px;
+
+}
+.secondh2{
+    margin-bottom: 34px ;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #262626;
+
+}
+.secondparagraph{
+    font-size: 18px;
+    color: #434343;
+    line-height: 33px;
+    display: inline-block;
+
+}
+.secondparagraph2{
+    font-size: 16px;
+    color: #434343;
+    line-height: 30px;
+    display: inline-block;
+}
+.div-building{
+    width: 90%;
+    margin: 0 auto;
+}
+.thirdsection{
+    padding: 45px 260px 90px 180px;
+}
+.thirdparagraph{
+    font-size: 18px;
+    color: #434343;
+    line-height: 30px;
+    display:inline-block;
+}
+.thirdh2{
+    margin-bottom: 34px ;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #262626;
+
+}
+.div-one{
+    display: flex;
+}
+
+.bluebox{
+    width: 100%;
+    height: 474px;
+    background-color: #0865DE;
+
+}
+.div-bluebox{
+    padding: 90px 260px 120px 180px;
+}
+.blueh1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 65px;
+    color: white;
+}
+.blueparagraph{
+    font-size: 25px;
+    line-height: 44px;
+    color: #002D69;
+}
+.div-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 60px;
+
+}
+.secondarticle{
+    margin: 90px 260px 120px 180px;
+
+}
+.secondh3{
+    margin-bottom: 70px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+
+.articlebox1{
+    width: 320px;
+    height: 461px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px 2px #0000003f;
+
+}
+
+
+.div-titles{
+    width: 100%;
+    margin: 26px 120px 40px 30px;
+
+   
+}
+.classh4{
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.title{
+    margin-bottom: 9px;
+    font-size: 14px;
+    color: #262626;
+}
+.website{
+    margin-bottom: 28px;
+    font-size: 11px;
+    color:#959595;
+    font-weight: bold;
+
+}
+.div-button{
+    align-items: center;
+}
+.bluebutton{
+    width: 21px;
+    height: 21px;
+
+}
+.bluelink{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+.orangebutton{
+    width: 176px;
+    height: 48px;
+    background-color: #FF7600;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px 2px #00000046;
+    margin-left: 615px;
+
+}
+.div-eye{
+    padding: 16px 0px 15px 15px;
 }
 
